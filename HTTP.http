@@ -1,0 +1,33 @@
+### getWines
+GET http://localhost:3000/api/wines
+###
+
+### createWine
+POST http://localhost:3000/api/wines
+Content-Type: application/json
+
+{
+  "img": "pruebaImg",
+  "title": "pruebaTitle",
+  "price": 1
+}
+###
+
+### getWine
+GET http://localhost:3000/api/wines/617c3a953f966fd214b4df29
+###
+
+### deleteWine
+DELETE http://localhost:3000/api/wines/617c3a163f966fd214b4df23
+###
+
+### updateWine
+PUT http://localhost:3000/api/wines/617c3a163f966fd214b4df23
+Content-Type: application/json
+
+{
+	"img": "pruebaImg2",
+	"title": "pruebaTitle2",
+	"price": 2
+}
+###
